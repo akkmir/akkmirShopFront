@@ -18,8 +18,10 @@ const css = {
   `,
   MainContentLine: styled.div`
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    align-items: left;
     justify-content: flex-start;
     width: 100%;
     height: auto;

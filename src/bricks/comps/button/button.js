@@ -3,6 +3,8 @@ const css = {
 
   Button: styled.span`
     display: block;
+    /* font-family: "Mont"; */
+    /* font-weight: 500; */
     position: relative;
     width: ${ props => props.styles.width }px;
     height: ${ props => props.styles.height }px;

@@ -12,6 +12,8 @@ import CatalogPage from './pages/CatalogPage'
 import SearchPage from './pages/SearchPage'
 import InfoPage from './pages/InfoPage'
 import NotFoundPage from './pages/NotFoundPage'
+import OplataPage from './pages/OplataPage'
+import InstallAkk from './pages/InstallAkk'
 
 const Main = () => {
 
@@ -30,6 +32,8 @@ const Main = () => {
       {/* header info pages */}
 
       <Route path="/oplata-i-dostavka" element={<InfoPage/>} />
+      <Route path="/oplata" element={<OplataPage/>} />
+      <Route path="/ustanovka-akkumlyatora" element={<InstallAkk />} />
       <Route path="/novosti" element={<InfoPage/>} />
       <Route path="/accii" element={<InfoPage/>} />
       <Route path="/o-kompanii" element={<InfoPage/>} />
