@@ -1,6 +1,5 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 const css = {
-
   OrderWrapper: styled.section`
     display: flex;
     flex-direction: row;
@@ -9,7 +8,11 @@ const css = {
     position: relative;
     width: 1300px;
     height: auto;
-    box-shadow: 22px 53px 23px rgba(163, 163, 163, 0.03), 12px 30px 19px rgba(163, 163, 163, 0.09), 5px 13px 14px rgba(163, 163, 163, 0.15), 1px 3px 8px rgba(163, 163, 163, 0.18), 0px 0px 0px rgba(163, 163, 163, 0.18);
+    box-shadow: 22px 53px 23px rgba(163, 163, 163, 0.03),
+      12px 30px 19px rgba(163, 163, 163, 0.09),
+      5px 13px 14px rgba(163, 163, 163, 0.15),
+      1px 3px 8px rgba(163, 163, 163, 0.18),
+      0px 0px 0px rgba(163, 163, 163, 0.18);
     border-radius: 8px;
     margin-bottom: 20px;
     padding: 34px;
@@ -44,7 +47,11 @@ const css = {
     width: 100%;
     height: auto;
     min-height: 100px;
-    box-shadow: 10px 18px 8px rgba(163, 163, 163, 0.02), 6px 10px 7px rgba(163, 163, 163, 0.07), 2px 4px 5px rgba(163, 163, 163, 0.11), 1px 1px 3px rgba(163, 163, 163, 0.13), 0px 0px 0px rgba(163, 163, 163, 0.13);
+    box-shadow: 10px 18px 8px rgba(163, 163, 163, 0.02),
+      6px 10px 7px rgba(163, 163, 163, 0.07),
+      2px 4px 5px rgba(163, 163, 163, 0.11),
+      1px 1px 3px rgba(163, 163, 163, 0.13),
+      0px 0px 0px rgba(163, 163, 163, 0.13);
     border-radius: 4px;
     padding: 18px;
   `,
@@ -71,11 +78,11 @@ const css = {
       width: 30px;
       height: 30px;
       border-radius: 50%;
-      background-color: #F7F7F7;
+      background-color: #f7f7f7;
       text-align: center;
       line-height: 27px;
       font-size: 12px;
-      color: #2E2E2E;
+      color: #2e2e2e;
       padding-top: 1px;
       font-weight: bold;
     `,
@@ -88,7 +95,7 @@ const css = {
       width: 80px;
       height: 80px;
       border-radius: 4px;
-      background-color: #F7F7F7;
+      background-color: #f7f7f7;
       margin-top: 8px;
       margin-bottom: 8px;
     `,
@@ -105,13 +112,13 @@ const css = {
       height: 44px;
       border-radius: 4px;
       box-shadow: 0px 0px 2px grey;
-      background-color: #F7F7F7;
+      background-color: #f7f7f7;
       line-height: 42px;
       text-align: center;
       font-size: 14px;
       padding-top: 1px;
       font-weight: bold;
-    `
+    `,
   },
   DiliveryCoast: styled.div`
     display: flex;
@@ -120,7 +127,23 @@ const css = {
     justify-content: space-between;
     width: 70%;
     height: auto;
-    border-top: 2px solid #F7F7F7;
+    border-top: 2px solid #f7f7f7;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    margin-top: 20px;
+  `,
+  DiliveryCoast2: styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* width: 100%; */
+    justify-content: space-between;
+    width: 70%;
+    gap: 12px;
+    height: auto;
+    /* text-align: right; */
+    /* border-top: 2px solid #F7F7F7; */
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 8px;
@@ -131,7 +154,7 @@ const css = {
     width: 30%;
     height: auto;
     min-height: 100px;
-    border-left: 3px solid #F7F7F7;
+    border-left: 3px solid #f7f7f7;
     margin-left: 22px;
     margin-top: 6px;
     padding: 18px;
@@ -142,11 +165,14 @@ const css = {
     width: 100%;
     height: auto;
     min-height: 500px;
-    box-shadow: 10px 18px 8px rgba(163, 163, 163, 0.02), 6px 10px 7px rgba(163, 163, 163, 0.07), 2px 4px 5px rgba(163, 163, 163, 0.11), 1px 1px 3px rgba(163, 163, 163, 0.13), 0px 0px 0px rgba(163, 163, 163, 0.13);
+    box-shadow: 10px 18px 8px rgba(163, 163, 163, 0.02),
+      6px 10px 7px rgba(163, 163, 163, 0.07),
+      2px 4px 5px rgba(163, 163, 163, 0.11),
+      1px 1px 3px rgba(163, 163, 163, 0.13),
+      0px 0px 0px rgba(163, 163, 163, 0.13);
     border-radius: 4px;
     margin-top: 20px;
   `,
+};
 
-}
-
-export default css
+export default css;
