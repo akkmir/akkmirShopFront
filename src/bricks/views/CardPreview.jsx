@@ -501,6 +501,36 @@ const CardPreview = (props) => {
               </React.Fragment>
             }
           />
+          <Button
+            params={{
+              width: 36,
+              height: 36,
+              background: "#F4F4F4",
+            }}
+            inner={""}
+            css={{
+              fontSize: "13px",
+              boxShadow: "none",
+              color: "#858585",
+            }}
+            children={
+              <React.Fragment>
+                <img
+                  alt={""}
+                  src={likeImg}
+                  style={{
+                    display: "block",
+                    position: "absolute",
+                    width: "17px",
+                    left: 0,
+                    marginLeft: "10px",
+                    top: "50%",
+                    marginTop: "-7px",
+                  }}
+                />
+              </React.Fragment>
+            }
+          />
         </div>
       </CoastWrapper>
       {/* <CoastWrapper

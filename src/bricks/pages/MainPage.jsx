@@ -383,14 +383,14 @@ const MainPage = () => {
         </ContentLine>
         {generalCatalog === null || generalCatalog.length === 0 ? (
           <ContentLine
-            style={{ justifyContent: "flex-start", flexWrap: "wrap" }}
+            style={{  flexWrap: "wrap",  }}
           >
             {popularItems
               ? popularItems.map((item, index) => {
                   return (
                     <React.Fragment key={index}>
                       <CardPreview
-                        params={{ width: 15.833333, mleft: 0 }}
+                        params={{ width: 20, mleft: 0 }}
                         image={null}
                         title={item.name}
                         description={item.discr}
@@ -416,7 +416,7 @@ const MainPage = () => {
           </ContentLine>
         ) : (
           <ContentLine
-            style={{ justifyContent: "flex-start", flexWrap: "wrap" }}
+            style={{ justifyContent: "space-between", flexWrap: "wrap" }}
           >
             {generalCatalog
               ? generalCatalog.map((item, index) => {
@@ -429,7 +429,7 @@ const MainPage = () => {
                       {index > aaa && index < aaa + 7 && (
                         <React.Fragment key={index}>
                           <CardPreview
-                            params={{ width: 15.833333, mleft: 0 }}
+                            params={{ width: 18.833333, mleft: 0 }}
                             image={null}
                             title={item.name}
                             popular={true}
