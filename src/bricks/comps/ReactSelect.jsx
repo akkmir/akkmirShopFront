@@ -60,7 +60,7 @@ const ReactSelect = (props) => {
 
   const { 
     params, 
-    placeholder = 'Выберите тип оплаты',
+    placeholder = 'Банковская карта',
     data = null,
     action = null,
     actionType = null,
